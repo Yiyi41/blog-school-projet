@@ -1,38 +1,41 @@
-I. HTML / CSS 
+I. HTML / CSS
 
 Maquette à réaliser en statique :
-- Page d'accueil 
-- Page Cours 
-- Page Se Connecter 
 
-effets CSS : 
+- Page d'accueil
+- Page Cours
+- Page Se Connecter
 
-Police Roboto 
+effets CSS :
 
-1/ Page d'accueil 
+Police Roboto
+
+1/ Page d'accueil
+
 - Quand la souris se positionne sur un élément de la barre de navigation, l'élément devient blanc (idem quand on est sur la page concernée et idem footer).
-- Les boutons CTA (Découvrez nos cours, Voir tous les cours, Lire le blog, J'accède aux cours, Accès au cours, Voir le cours) changent de couleurs quand on se place dessus. 
-- la position de la bulle en bas à droite reste toujours en bas à droite en fonction du scroll. (Vous aurez bien compris qu'il n'y a qu'une seule bulle par page) 
-- la flèche est en mouvement du bas vers le haut 
-- Les pictogrammes dans Ressources ont un effet de rebond 
+- Les boutons CTA (Découvrez nos cours, Voir tous les cours, Lire le blog, J'accède aux cours, Accès au cours, Voir le cours) changent de couleurs quand on se place dessus.
+- la position de la bulle en bas à droite reste toujours en bas à droite en fonction du scroll. (Vous aurez bien compris qu'il n'y a qu'une seule bulle par page)
+- la flèche est en mouvement du bas vers le haut
+- Les pictogrammes dans Ressources ont un effet de rebond
 
-2/ Page Cours  
+2/ Page Cours
 
-Responsive : 
+Responsive :
 Pour le mobile
 Faire un menu burger pour la barre de navigation
-Mettre les éléments à la suite les uns des autres 
+Mettre les éléments à la suite les uns des autres
 
+II. JS
+Page d'accueil :
 
+- rajouter un slider (fait-maison) au niveau du blog
 
-II. JS 
-Page d'accueil : 
-- rajouter un slider (fait-maison) au niveau du blog 
+Page Cours :
 
-Page Cours : 
-- Au niveau des "cours disponibles" : ajouter un compteur qui compte le nombre de cours sélectionnés. Au clique d'un cours, un cadre noir apparaît. Si on reclique sur un élément, le compteur d'élément diminue et le cadre du cours concerné s'enlève. Rajouter un bouton pour supprimer toute la sélection.  
-- Déplier la foire au question au clique d'une flèche 
+- Au niveau des "cours disponibles" : ajouter un compteur qui compte le nombre de cours sélectionnés. Au clique d'un cours, un cadre noir apparaît. Si on reclique sur un élément, le compteur d'élément diminue et le cadre du cours concerné s'enlève. Rajouter un bouton pour supprimer toute la sélection.
+- Déplier la foire au question au clique d'une flèche
 
 La Page Se connecter :
-- Doit être une pop up de la page Cours 
+
+- Doit être une pop up de la page Cours
 - Le bouton fermé doit fermer la pop up
