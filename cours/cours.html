@@ -14,8 +14,11 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap"
       rel="stylesheet"
     />
+    <!-- reset.css pour reset tous css à 0 -->
     <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="../accueil/accueil.css" />
     <link rel="stylesheet" href="./cours.css" />
+
     <title>page cours</title>
     <!-- utile pour le SEO-->
   </head>
@@ -25,10 +28,32 @@
       <img src="../assets/logo.png" alt="logo" />
       <div>
         <a href="">Cours</a>
-        <button>Se connecter</button>
+        <button id="connecter">Se connecter</button>
       </div>
     </header>
+    <img src="../assets/message-solid.svg" alt="message svg" class="message" />
     <main>
+      <div id="background">
+        <div id="pop-up-container">
+          <span id="btnClose">x</span>
+          <p class="title">Se connecter</p>
+          <form action="">
+            <p>E-mail</p>
+            <input
+              type="email"
+              placeholder="e.g. picard@starfleet.org"
+              class="email-password"
+            />
+            <p>Mot de passe</p>
+            <input type="password" value="password" class="email-password" />
+            <input type="submit" value="Se connecter" class="connect" />
+            <p class="reset-password">
+              Vous avez oublié votre mot de passe?
+              <span> Le réinitialiser</span>
+            </p>
+          </form>
+        </div>
+      </div>
       <section class="cours-complets">
         <div class="text-btn-block">
           <p class="title">Nos cours complets</p>
@@ -36,14 +61,252 @@
             Montez en compétence, développer une expertise et faites passer
             votre profil de dev de zéro à héro(ïne)!
           </p>
-          <button>J'accède au cours (19,99€/mois)</button>
+          <button class="discover-btn">J'accède au cours (19,99€/mois)</button>
         </div>
         <div class="img-block">
           <img src="../assets/checklist.png" alt="" />
         </div>
       </section>
 
-      <section class="cours-dipos"></section>
+      <section class="formules-cours">
+        <div class="title-block">
+          <p class="title">Les cours</p>
+          <button id="btnDiscover">J'accède au cours (19,99€/mois)</button>
+          <p id="counter-message-print">
+            Tu as choisi <span id="counter">0</span> cours
+          </p>
+        </div>
+        <div class="card-block">
+          <div class="card">
+            <img
+              src="../assets/sqlcarte.png"
+              alt="suitecase logo"
+              class="logo-cours"
+            />
+            <div class="cours-card-texte">
+              <div class="cours-name">SQL et MySQL</div>
+              <div>Base de données</div>
+              <div class="cours-content">
+                Apprenez tout ce qu'il y a à savoir sur les bases de données
+                relationnelles
+              </div>
+              <button class="voir-cours-btn">Voir tous les cours</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="../assets/jobcarte.png"
+              alt="suitecase logo"
+              class="logo-cours"
+            />
+            <div class="cours-card-texte">
+              <p class="cours-name">Décrochez votre premier job de dev</p>
+              <p>Recrutement</p>
+              <p class="cours-content">
+                Pour ne plus chercher un emploi, mais le trouver !
+              </p>
+              <button class="voir-cours-btn">Voir tous les cours</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="../assets/gitcart.png"
+              alt="suitecase logo"
+              class="logo-cours"
+            />
+            <div class="cours-card-texte">
+              <p class="cours-name">Git et Github</p>
+              <p>Gestion de code</p>
+              <p class="cours-content">
+                Maîtrisez les outils indispensables pour gérer votre code
+              </p>
+              <button class="voir-cours-btn">Voir tous les cours</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="../assets/freelancecarte.png"
+              alt="suitecase logo"
+              class="logo-cours"
+            />
+            <div class="cours-card-texte">
+              <p class="cours-name">Lancez-vous en freelance</p>
+              <p>Entrepreneuriat</p>
+              <p class="cours-content">
+                Pour tous les développeurs et développeuses qui veulent prendre
+                leur envol !
+              </p>
+              <button class="voir-cours-btn">Voir tous les cours</button>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="../assets/anglaiscarte.png"
+              alt="suitecase logo"
+              class="logo-cours"
+            />
+            <div class="cours-card-texte">
+              <p class="cours-name">Améliorez votre anglais</p>
+              <p>Opportunités</p>
+              <p class="cours-content">
+                Toutes les astuces pour s'améliorer en 5 minutes par jours
+              </p>
+              <button class="voir-cours-btn">Voir tous les cours</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="../assets/jsbasecarte.png"
+              alt="suitecase logo"
+              class="logo-cours"
+            />
+            <div class="cours-card-texte">
+              <p class="cours-name">Les bases de JavaScript</p>
+              <p>Bientôt...</p>
+              <p class="cours-content">
+                Apprenez LE langage de programmation pour le web !
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="menbership">
+        <div class="description-in-number">
+          <div class="text-block-in-membership">
+            <p class="p1">Rejoignez les</p>
+            <p class="p2">100+ passionnés</p>
+
+            <p class="p3">
+              qui ont choisi d'accélerer leur apprentissage avec nos cours
+              complets.
+            </p>
+          </div>
+          <div class="text-block-in-membership">
+            <p class="p1">ou les</p>
+            <p class="p2">1000+ inscrits</p>
+
+            <p class="p3">à notre newsletter pour ne jamais rien louper.</p>
+          </div>
+          <div class="text-block-in-membership">
+            <p class="p1">ou encore les</p>
+            <p class="p2">15 000 devs</p>
+
+            <p class="p3">
+              qui suivent nos contenus réguliers sur le site web chaque mois !
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="client-rewiew-block">
+        <p class="title">Les retours de nos membres</p>
+        <div class="review-card-block">
+          <div class="review-card">
+            <div>
+              <img src="../assets/anonyme-user.jpeg" alt="user photo" />
+              <p class="user-review">
+                "En tant que dev, mais aussi en tant que lecteur, je tiens à
+                vous dire que les contenus sont bons, faciles à lire et
+                agréables !"
+              </p>
+            </div>
+            <p class="developper-name">Anonyme - Développeuse web</p>
+          </div>
+
+          <div class="review-card">
+            <div>
+              <img src="../assets/samir-user.jpg" alt="user photo" />
+              <p class="user-review">
+                "Merci pour vos contenus qui sont très intéressants et qui
+                permettent aux novices comme moi d'en apprendre toujours plus."
+              </p>
+            </div>
+            <p class="developper-name">Samir B.H. - Développeur web</p>
+          </div>
+
+          <div class="review-card">
+            <div>
+              <img src="../assets/aurore-user.jpg" alt="user photo" />
+              <p class="user-review">
+                "Un petit mot pour vous remercier, sans vos contenus, je n’aurai
+                pas décroché mon premier poste en tant que junior."
+              </p>
+            </div>
+            <p class="developper-name">Aurore L. - Développeuse junior</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="forum">
+        <p class="title">Foire aux Questions</p>
+        <div class="forum-content">
+          <div>
+            <p class="question">
+              La qualité des cours est-elle équivalente à celles d'autres écoles
+              de code ?
+            </p>
+            <p class="response">
+              Oui, les cours sont écrits par des développeurs professionnels qui
+              enseignent également dans des écoles d'informatique classiques. Il
+              n'existe pas de meilleures preuves que les retours utilisateurs
+              que vous pourrez lire juste au-dessus !
+            </p>
+          </div>
+
+          <div>
+            <p class="question">
+              Si je m'abonne, aurais-je vraiment accès à tous les cours en
+              illimité ?
+            </p>
+            <p class="response">
+              Absolument, tant que vous gardez votre abonnement, vous avez accès
+              à tous les cours disponibles, et ceux qui arriveront plus tard !
+            </p>
+          </div>
+
+          <img
+            id="scroll-down-chevron"
+            src="../assets/circle-chevron-down-solid.svg"
+            alt="chevron scroll down"
+          />
+
+          <div class="question-response-card">
+            <p class="question">
+              L'abonnement mensuel est-il soumis à un engagement ?
+            </p>
+            <p class="response">
+              Aucun engagement, notre vision de l'éducation est qu'elle doit
+              rester le plus accessible possible. Rien ne vous empêche de vous
+              abonner et de vous désabonner le mois suivant !
+            </p>
+          </div>
+
+          <div class="question-response-card">
+            <p class="question">Quel est le format des cours</p>
+            <p class="response">
+              Certains cours sont à lire, d'autres à écouter. L'objectif est
+              d'avoir tous les cours disponibles en version texte et en version
+              vidéo le plus tôt possible !
+            </p>
+          </div>
+
+          <div class="question-response-card">
+            <p class="question">
+              Tous les cours contiennent-ils des ressources et exercices
+            </p>
+            <p class="response">
+              Cela dépend du sujet, certains contiennent des ressources et des
+              exercices, et certains ne contiennent que du contenu
+              d'apprentissage.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- FOOTER -->
     <footer>
@@ -73,4 +336,5 @@
       </div>
     </footer>
   </body>
+  <script src="./cours.js"></script>
 </html>
