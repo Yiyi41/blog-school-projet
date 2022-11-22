@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- utile pour les pages recommandées-->
+  <head>
+    <meta charset="UTF-8" />
+    <!-- pour l'affichage de certains caractères-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- pour supporter des vieilles versions de navigateurs-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- pour gérer l'affichage notamment mobile-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="./accueil.css" />
+    <title>My blog</title>
+    <!-- utile pour le SEO-->
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <img src="../assets/logo.png" alt="logo du site" class="logo" />
+      <nav>
+        <a href="">Accueil</a>
+        <a href="">Cours</a>
+        <a href="">Blog</a>
+        <a href="">Newsletter</a>
+      </nav>
+    </header>
+
+    <!-- MAIN CONTAINER -->
+    <main>
+      <!-- FIRST CONTAINER -->
+      <section class="first-container">
+        <img src="../assets/logo.png" alt="logo du site" class="logo-center" />
+        <p class="p1">La plateforme d'apprentissage du code.</p>
+
+        <p class="p2">
+          Apprennez la programmation et le métier de dev grâce à nos cours et
+          nos ressources
+        </p>
+
+        <button class="discover-btn">
+          Découvrir nos cours
+          <img
+            src="../assets/briefcase-solid.svg"
+            alt="case svg"
+            class="suitecase-svg"
+          />
+        </button>
+
+        <img
+          src="../assets/chevron-down-solid.svg"
+          alt="chevron down svg"
+          class="chevron"
+        />
+      </section>
+      <img
+        src="../assets/message-solid.svg"
+        alt="message svg"
+        class="message"
+      />
+      <!-- SECOND CONTAINER -->
+      <section class="second-container">
+        <p class="title">Apprendre, découvrir, expérimenter</p>
+
+        <div>
+          <img
+            src="../assets/terminal.png"
+            alt="image d'un terminal"
+            class="img-terminal"
+          />
+          <p class="text-in-terminal">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
+            quia dicta fugiat veritatis non pariatur numquam! Culpa, veniam
+            maiores voluptate rerum, earum illum debitis dolorum repudiandae est
+            necessitatibus placeat distinctio? <br />
+            <br />
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Praesentium quam repellendus impedit placeat excepturi ab
+            consequatur temporibus quod? Asperiores iste sapiente itaque
+            obcaecati! Iste ex, iusto voluptatum nam dicta eum.
+          </p>
+        </div>
+      </section>
+      <!-- SECTION COURS -->
+      <section class="section-cours">
+        <p class="title">Les cours</p>
+        <p class="abbonnement">Un abonnement unique</p>
+        <div class="cours-block">
+          <div class="card">
+            <img
+              src="../assets/mysql.png"
+              alt="mysql logo"
+              class="logo-cours"
+            />
+            <div>
+              <p class="cours-name">Maitrisez SQL et my SQL</p>
+              <p class="cours-content">
+                Les bases de données relationnels sont incontounables pour les
+                dev web
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="../assets/bagage.png"
+              alt="suitecase logo"
+              class="logo-cours"
+            />
+            <div>
+              <p class="cours-name">Décrochez votre premier job de dev!</p>
+              <p class="cours-content">
+                Si vous recherchez un emploi mais que vous n'arrivez pas à vous
+                vendre
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="../assets/github.png"
+              alt="github logo"
+              class="logo-cours"
+            />
+            <div>
+              <p class="cours-name">Apprenez git et Github</p>
+              <p class="cours-content">
+                L'outil indispensable pour gérer son code dans le milieu
+                personnel.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="../assets/symbole-monetaire-dollar.png"
+              alt="dollars logo"
+              class="logo-cours"
+            />
+            <div>
+              <p class="cours-name">Maitrisez SQL et my SQL</p>
+              <p class="cours-content">Lancez vous en tant que dev freelance</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="voir-cours-btn">Voir tous les cours</button>
+      </section>
+      <!-- RESSOURCES SECTION -->
+      <section class="section-ressources">
+        <p class="title">Les Ressources</p>
+        <p class="sub-title">Gratuites</p>
+        <div class="ressource-block">
+          <div class="ressouce-card">
+            <img
+              src="../assets/newletter.svg"
+              alt="newsletter logo"
+              class="ressource-logo"
+            />
+
+            <p class="ressource-name">Newsletter ></p>
+            <p class="ressource-frequence">Toutes les semaines</p>
+          </div>
+
+          <div class="ressouce-card">
+            <img
+              src="../assets/blog.svg"
+              alt="blog logo"
+              class="ressource-logo"
+            />
+
+            <p class="ressource-name">Blog ></p>
+            <p class="ressource-frequence">350+ articles</p>
+          </div>
+
+          <div class="ressouce-card">
+            <img
+              src="../assets/microphone-solid.svg"
+              alt="podcast logo"
+              class="ressource-logo"
+            />
+
+            <p class="ressource-name">Podcasts ></p>
+            <p class="ressource-frequence">30+ épisodes</p>
+          </div>
+
+          <div class="ressouce-card">
+            <img
+              src="../assets/video.svg"
+              alt="video logo"
+              class="ressource-logo"
+            />
+
+            <p class="ressource-name">Vidéos ></p>
+            <p class="ressource-frequence">Découvez codeflix</p>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION BLOG -->
+      <section class="section-blog">
+        <p class="title">Le Blog</p>
+        <img
+          src="../assets/blog.svg"
+          alt="blog logo"
+          class="blog-logo-in-blog-section"
+        />
+        <div class="scroll-container">
+          <button id="left">
+            <img
+              src="../assets/chevron-left-solid.svg"
+              alt="chevron left for scroll"
+              class="chevron-in-blog-section"
+            />
+          </button>
+
+          <img
+            src="../assets/rest.png"
+            alt="image ressource"
+            class="scroll-img active"
+          />
+          <img
+            src="../assets/pipeline.png"
+            alt="image ressource"
+            class="scroll-img"
+          />
+
+          <img
+            src="../assets/index.png"
+            alt="image ressource"
+            class="scroll-img"
+          />
+          <button id="right">
+            <img
+              src="../assets/chevron-right-solid.svg"
+              alt="chevron right for scroll"
+              class="chevron-in-blog-section"
+            />
+          </button>
+        </div>
+
+        <div class="text-in-blog-section">
+          <p>
+            Découvrir de nouveaux sujets, des nouvelles technologies, mettre en
+            place une veille et s'améliorer de jour en jour ne devrait être ni
+            compliqué, ni payant.
+          </p>
+
+          <p>Voilà pourquoi notre blog est mis à jour chaque semaine.</p>
+        </div>
+        <div>
+          <button class="lire-le-blog-btn">
+            Lire le blog
+            <img
+              src="../assets/lunettes.png"
+              alt="image lunettes"
+              class="img-in-btn-blog"
+            />
+          </button>
+          <p class="text-under-blog-btn">+ de 12 000 lecteurs/mois</p>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <img src="../assets/logo.png" alt="logo" class="logo-in-footer" />
+      <p class="footer-text">
+        Mentions légales <br />
+        Conditons générales de vente <br />A propos <br />Nous contacter
+      </p>
+      <p class="footer-text">
+        Les 4 axes d'apprentissage d'un dev <br />Les outils pour visualiser du
+        JSON en graphe <br />Préparer les tâches pour intégrer un dev junior
+        <br />
+        Préparer les tâches pour intégrer un dev junior
+      </p>
+      <div class="contact">
+        <div class="icons">
+          <img src="../assets/youtube.svg" alt="youtube logo" />
+          <img src="../assets/twitter.svg" alt="twitter logo" />
+          <img src="../assets/linkedin.svg" alt="linkedin logo" />
+          <img src="../assets/twitch.svg" alt="twitch logo" />
+        </div>
+        <div>
+          <p class="subscription">S'abonner à la newsletter</p>
+          <input type="email" value="Email" class="email-input" />
+          <input type="submit" value="S'inscrire" class="inscription-input" />
+        </div>
+      </div>
+    </footer>
+    <script src="../index.js"></script>
+  </body>
+</html>
