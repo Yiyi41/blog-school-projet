@@ -17,7 +17,7 @@ header {
   font-size: 2rem;
   font-weight: 500;
   align-items: center;
-  width: 100% vh;
+  /* width: 100vh; revoir ce selector */
   background-color: #1a1a1a;
 }
 
