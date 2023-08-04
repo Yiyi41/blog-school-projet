@@ -1,7 +1,11 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 body {
   font-family: "Roboto", sans-serif;
-  box-sizing: border-box;
-  width: 100%;
+  width: 100vw;
 }
 
 /* HEADER NAV BAR */
@@ -51,7 +55,6 @@ nav a:hover {
 
 .logo-center {
   width: 300px;
-  /* margin: 50px auto; */
   padding: 20px;
 }
 
@@ -118,13 +121,11 @@ nav a:hover {
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
     -webkit-transform: translateY(0);
-    /* transform: translateY(0); */
   }
   40% {
     -moz-transform: translateY(-10px);
     -ms-transform: translateY(-10px);
     -webkit-transform: translateY(-10px);
-    /* transform: translateY(-10px); */
   }
 }
 @keyframes bounce {
@@ -139,7 +140,6 @@ nav a:hover {
     -moz-transform: translateY(-10px);
     -ms-transform: translateY(-10px);
     -webkit-transform: translateY(-10px);
-    /* transform: translateY(-10px); */
   }
 }
 
@@ -215,7 +215,6 @@ nav a:hover {
   align-items: center;
   border: 2px gray solid;
   gap: 20px;
-  /* padding: 10px; */
   border: none;
   box-shadow: 10px 5px 5px lightgrey;
 }
@@ -291,7 +290,6 @@ nav a:hover {
   gap: 30px;
 }
 .ressouce-card {
-  /* border: 1px solid gray; */
   width: 200px;
   height: 200px;
   display: flex;
@@ -326,7 +324,6 @@ nav a:hover {
 #right {
   background-color: black;
   cursor: pointer;
-  /* color: white; */
 }
 
 .chevron-in-blog-section,
@@ -344,7 +341,7 @@ nav a:hover {
   gap: 10px;
   border: none;
   border-radius: 10px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
@@ -380,8 +377,8 @@ nav a:hover {
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 25px;
 }
 
 /* FOOTER */
@@ -403,11 +400,11 @@ footer {
 }
 
 .icons img {
-  width: 50px;
+  width: 30px;
 }
 
 .logo-in-footer {
-  width: 200px;
+  width: 150px;
 }
 
 .contact {
@@ -418,8 +415,8 @@ footer {
 }
 
 .footer-text {
-  font-size: 1.3rem;
-  line-height: 30px;
+  font-size: 1rem;
+  line-height: 20px;
 }
 
 .subscription {
@@ -431,7 +428,7 @@ footer {
   border: none;
   border-radius: 8px;
   height: 40px;
-  font-size: 1.1rem;
+  font-size: 0.8rem;
 }
 
 .email-input {
