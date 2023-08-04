@@ -256,7 +256,7 @@ nav a:hover {
 /* RESSOURCES SECTION */
 .section-ressources {
   height: 400px;
-  background-image: url("../assets/blue.png");
+  background-image: url("assets/blue.png");
   background-repeat: repeat;
   color: white;
   padding: 30px;
