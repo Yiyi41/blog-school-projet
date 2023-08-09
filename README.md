@@ -1,2 +1,4 @@
-# blog-school-projet: html css, not responsive
-click [here](https://yiyi41.github.io/blog-school-projet/) to visit
+
+*<h5 align="right">Stacks ▶︎▶︎ html | css</h5>* 
+
+[Click here to visit 👀](https://yiyi41.github.io/blog-school-projet/) to visit
